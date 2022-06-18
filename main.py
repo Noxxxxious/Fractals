@@ -13,7 +13,7 @@ caption = "Fractals"
 # modify this value to generate a different fractal
 N = 6
 PI = math.pi
-R = 200
+R = 300
 vertices = [(math.cos(2 * PI / N * x) * R + center_x, math.sin(2 * PI / N * x) * R + center_y) for x in range(0, N + 1)]
 
 
