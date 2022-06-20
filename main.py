@@ -14,7 +14,7 @@ caption = "Fractals"
 N = 6
 PI = math.pi
 R = 300
-vertices = [(math.cos(2 * PI / N * x) * R + center_x, math.sin(2 * PI / N * x) * R + center_y) for x in range(0, N + 1)]
+vertices = [(math.cos(2 * PI / N * x + PI/2) * R + center_x, math.sin(2 * PI / N * x + PI/2) * R + center_y) for x in range(0, N + 1)]
 
 
 def two_random_adjacent_vertices():
